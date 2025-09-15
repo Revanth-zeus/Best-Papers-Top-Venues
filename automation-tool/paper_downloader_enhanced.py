@@ -616,11 +616,12 @@ if __name__ == "__main__":
         print("pip install pandas openpyxl")
         exit(1)
     
-    API_KEY = "dFjbDAiB6h3fT8UnUDqv31HaWQY8zJHw6sKpVSth"
+    API_KEY = "our_key "
     
     downloader = PaperDownloader(API_KEY)
     downloader.process_papers()
     
     print("\n🎉 Process completed!")
     print("Check the 'downloaded_papers' folder for your PDFs.")
+
     print("Check the Excel file for organized results with paper details! 📊")
